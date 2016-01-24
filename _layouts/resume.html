@@ -4,11 +4,12 @@
 {% include resume/head.html %}
 
 <body>
-
+  <div class="container resume-content">
+    {% include resume/titlebar.html %}
     {{ content }}
-
+    {% include resume/bottombar.html %}
     {% include resume/footer.html %}
-
+  </div>
 </body>
 
 </html>
