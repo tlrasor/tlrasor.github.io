@@ -20,3 +20,9 @@ exclude:
   - "build.log"
 sass:
   style: compressed
+
+gems:
+  - jekyll-seo-tag
+
+twitter:
+  username: tlrasor
