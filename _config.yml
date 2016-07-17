@@ -12,7 +12,6 @@ description: Travis Rasor
 markdown: kramdown
 exclude:
   - "README.md"
-  - "CHANGELOG.md"
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"
