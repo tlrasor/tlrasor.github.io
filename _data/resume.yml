@@ -4,9 +4,9 @@ demo: false
 # Theme customization is done on this file instead of _config.yml so that
 # you don't have to restart Jekyll to see changes.
 
-photo: "https://avatars0.githubusercontent.com/u/786356?v=2&s=150"
+photo: "icon.jpg"
 name: "Travis Rasor"
-copy: "A Research Software Engineer based in Memphis, TN. I'm currently a Senior Software Engineer at ARGO Data Resource."
+copy: "A Full-Stack Software Engineer based in Memphis, TN. I'm currently a Senior Software Engineer at ARGO Data Resource."
 
 # Color scheme based on http://www.materialui.co/colors.
 # Possible values:
@@ -18,4 +18,4 @@ copy: "A Research Software Engineer based in Memphis, TN. I'm currently a Senior
 # - purple
 # - teal
 # - green
-color: brown
+color: red

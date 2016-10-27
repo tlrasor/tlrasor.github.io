@@ -235,7 +235,7 @@ a {
 }
 
 .panel-body {
-  height: 280px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -468,13 +468,13 @@ script + p {
 
 @media (max-width: $screen-sm-max) and (min-width: $screen-sm-min) {
   .panel-body {
-    height: 320px;
+    height: 350px;
   }
 }
 
 @media (max-width: $screen-xs-max) {
   .panel-body {
-    height: auto;
+    height: 350px;
   }
 
   .resume-content {
@@ -516,6 +516,10 @@ script + p {
     padding-left: $space-md - 5;
   }
 
+  .row {
+    max-width: 95%;
+  }
+
   .panel {
     box-shadow: none;
     border: 1px solid rgba(0,0,0,.1);
@@ -531,7 +535,7 @@ script + p {
   }
 
   .panel-body {
-    height: 210px;
+    height: 220px;
   }
 
   .resume-content {
