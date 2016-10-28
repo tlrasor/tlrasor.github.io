@@ -516,6 +516,10 @@ script + p {
     padding-left: $space-md - 5;
   }
 
+  .panel {
+    page-break-inside: avoid;
+  }
+
   .row {
     max-width: 95%;
   }
@@ -526,7 +530,7 @@ script + p {
   }
 
   .panel-heading {
-    height: 25px;
+    height: 20px;
     overflow: hidden;
   }
 
@@ -535,11 +539,11 @@ script + p {
   }
 
   .panel-body {
-    height: 240px;
+    height: 300px;
   }
 
   .resume-content {
-    padding-top: $space-sm;
+    padding-top: $space-sm - 10;
 
     .row + .row {
       padding-top: $space-md / 4;
