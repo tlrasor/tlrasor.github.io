@@ -5,7 +5,7 @@ layout: default
 ## Work
 
 * [Resume](resume)
-* [Projects](https://github.com/tlrasor)
+* [Github](https://github.com/tlrasor)
 
 ## Play
 

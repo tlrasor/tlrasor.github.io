@@ -1,3 +1,3 @@
 # tlrasor.github.io
-Personal site adopted from: https://github.com/chibicode/solo
-Resume cards were adopted from: https://github.com/ellekasai/resumecards
+Personal site forked from: https://github.com/chibicode/solo
+Resume cards forked from: https://github.com/ellekasai/resumecards

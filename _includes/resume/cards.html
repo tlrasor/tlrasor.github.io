@@ -8,7 +8,11 @@
         <div class="panel-body">
           {% if card.heading %}
             <h4>
-              {{ card.heading }}
+              {% if card.external_url %}
+                <a href="{{card.external_url}}">{{ card.heading }}</a>
+              {% else %}
+                {{ card.heading }}
+              {% endif %}
             </h4>
           {% endif %}
           {% if card.subheading %}

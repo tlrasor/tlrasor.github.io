@@ -6,7 +6,7 @@ demo: false
 
 photo: "icon.jpg"
 name: "Travis Rasor"
-copy: "A Full-Stack Software Engineer based in Memphis, TN. I'm currently a Senior Software Engineer at ARGO Data Resource."
+copy: "A Full-Stack Software Engineer. Currently a Senior Software Engineer at ARGO Data Resource."
 
 # Color scheme based on http://www.materialui.co/colors.
 # Possible values:
