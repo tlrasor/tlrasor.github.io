@@ -449,7 +449,7 @@ script + p {
   margin: $space-xs 0 $space-sm;
   color: $color-base;
   font-family: "Quando", sans-serif;
-  font-size: $font-size-base;
+  // font-size: $font-size-base;
 
   @each $color-name in $color-list {
     .theme-#{$color-name} & {
