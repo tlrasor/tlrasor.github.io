@@ -20,6 +20,11 @@
               {{ card.subheading }}
             </p>
           {% endif %}
+          {% if card.leadin %}
+            <p class="resume-leadin">
+              {{ card.leadin }}
+            </p>
+          {% endif %}
           {% if card.duration %}
             <p class="resume-duration">
               {{ card.duration }}

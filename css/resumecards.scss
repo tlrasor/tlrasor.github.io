@@ -445,6 +445,19 @@ script + p {
   }
 }
 
+.resume-leadin {
+  margin: $space-xs 0 $space-sm;
+  color: $color-base;
+  font-family: "Quando", sans-serif;
+  font-size: $font-size-base;
+
+  @each $color-name in $color-list {
+    .theme-#{$color-name} & {
+      color: map-get(map-get($all-colors, $color-name), "base");
+    }
+  }
+}
+
 .resume-duration {
   margin-bottom: 0;
 }
@@ -577,7 +590,10 @@ script + p {
     margin: ($space-xs - 2) 0 $space-xs;
     font-size: $font-size-base - 4;
   }
-
+  .resume-leadin {
+    margin: ($space-xs - 2) 0 $space-xs;
+    font-size: $font-size-base - 4;
+  }
   .resume-duration,
   .resume-location {
     font-size: $font-size-base - 5;
